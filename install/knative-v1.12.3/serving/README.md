@@ -5,13 +5,27 @@
 ```
 docker.io/istio/proxyv2:1.19.3
 docker.io/istio/pilot:1.19.3
+
 gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:eff69d2271dde5f4ad0eb665d8a493773d7c78da05c2a5ef94c1d84dcac37cf1
+gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.12.3
+
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:7908e2a3e2238d14044527f8f991cc76492e0de2110e2abef5e3ee4a59b43c4f
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.12.3
+
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:f765925786e92f156c54ef8988893b230cadd155848781b53dc5d39f8cf55c5a
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.12.3
+
 gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:ea0f8f2ed5a603c42687ad397a4826bb720ea50ce39eef1b3a03927a920e4bc0
+gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.12.3
+
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:53b28cc099b7e2357513e9643c029b200eb6b8c7eb2279961c7e79b677a8a2b7
+gcr.io/knative-releases/knative.dev/net-istio/cmd/controller:v1.12.1
+
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:90083eb29e6ab29a352fbf606257ca397e4039acb12f7c08152dc1e409e5ce50
+gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook:v1.12.1
+
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:8883f4fff5c56ed512cc4a3a3ab178b7a3366e58ea2e6aee83d33bc6d287aa48
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.12.3
 
 ```
 
